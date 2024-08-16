@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper Game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="game-title" class="game-title">Minesweeper Game</h1>
+        <div class="timer" id="timer">0:00 min</div>
+        <div class="grid">
+            <!-- Game Instructions and Start Button -->
+        <div id="intro">
+            <p>Welcome to Minesweeper! Click on the cells to reveal them. Avoid the mines! <a href="https://en.wikipedia.org/wiki/Minesweeper_(video_game)" target="_blank"><span class="more-details">i</span></a></p>
+            <button id="start-btn">Click to Start the Game</button>
+        </div>
+            <table class="hidden">
+                <!-- The grid will be generated dynamically by JavaScript -->
+            </table>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
