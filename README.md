@@ -18,7 +18,7 @@ This version of Minesweeper is implemented using HTML, CSS, and JavaScript. It f
 
 You can try out the Minesweeper game hosted online. Click the link below to play:
 
-[Play Minesweeper Online](https://masterhardik.github.io/bomb-sweeper)
+[Play Minesweeper Online](https://masterhardik.github.io/minesweeper-game/)
 
 ## How to Run Locally
 
